@@ -2,8 +2,8 @@ import React from 'react'
 
 const Login = () => {
     return (
-        <section>
-            <h1>Login</h1>
+        <section className='login-container'>
+            <h1>Welcome</h1>
             <form>
                 <label>
                     Gebruikersnaam:
@@ -13,7 +13,7 @@ const Login = () => {
                     Wachtwoord:
                     <input type="password" required/>
                 </label>
-                <button type="submit">login</button>
+                <button type="submit">Confirm</button>
             </form>
         </section>
     )
