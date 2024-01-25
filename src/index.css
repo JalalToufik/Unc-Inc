@@ -30,19 +30,37 @@ nav{
   border: 2px solid lightgray;
 }
 
+nav h1{
+  font-size: 1em;
+}
+
 h1{
   text-align: center;
 }
 
+main{
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  height: 100vh;
+}
+
 .login-container{
-  margin: 0 auto;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  background-color: rgb(22, 22, 22);
+  max-width: 30em;
+  height: 22em;
+  margin-top: 5em;
+  border-radius: 15px;
 }
 
 .login-container h1{
-  padding: 1em;
+  color: white;
 }
 
 form{
@@ -51,8 +69,8 @@ form{
   gap: 1em;
   align-items: flex-start;
   padding: 1em 6.5em;
-  border: 2px solid lightgray;
-  border-radius: 5px;
+  color: white;
+
 }
 
 form label{
@@ -61,10 +79,20 @@ form label{
   gap: 0.5em;
 }
 
+form input{
+  background-color: rgb(60, 60, 60);
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  height: 2em;
+  padding: 0 1em;
+}
+
 form button{
   padding: 0.5em 1em;
   border-radius: 5px;
   margin: 0 auto;
+  border-style: none;
 }
 
 form button:hover{
